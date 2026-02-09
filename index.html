@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pet’s Hospitality — Veterinary Care Clinic</title>
+    <meta name="description" content="Pet’s Hospitality is a full-service veterinary clinic with diagnostics, surgery, ICU, grooming, and 24/7 care." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <div class="bg__grain"></div>
+      <div class="bg__blob bg__blob--a"></div>
+      <div class="bg__blob bg__blob--b"></div>
+      <div class="bg__blob bg__blob--c"></div>
+    </div>
+
+    <header class="nav">
+      <div class="nav__logo">Pet’s Hospitality</div>
+      <nav class="nav__links">
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#steps">How It Works</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+      <button class="nav__cta" data-open="form">Book a Visit</button>
+      <button class="nav__burger" aria-label="Open menu">Menu</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <div class="hero__badge">Full-cycle clinic · 24/7</div>
+          <h1>Care that feels calm, precise, and personal.</h1>
+          <p>
+            Pet’s Hospitality brings diagnostics, treatment, and recovery into a single caring journey. Every step is
+            designed around your pet’s comfort and long-term health.
+          </p>
+          <div class="hero__actions">
+            <button class="btn btn--primary" data-open="form">Book your pet</button>
+            <button class="btn btn--ghost" data-open="tour">Virtual tour</button>
+          </div>
+          <div class="hero__stats">
+            <div>
+              <strong>12+ years</strong>
+              <span>in veterinary care</span>
+            </div>
+            <div>
+              <strong>7</strong>
+              <span>medical specialties</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>ICU monitoring</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__card">
+            <div class="hero__card-header">Clinic status today</div>
+            <div class="hero__card-body">
+              <div class="hero__card-line">
+                <span>Open slots</span>
+                <strong>10:30 · 12:00 · 16:15</strong>
+              </div>
+              <div class="hero__card-line">
+                <span>Emergency intake</span>
+                <strong>walk-in available</strong>
+              </div>
+              <div class="hero__card-line">
+                <span>Avg. wait time</span>
+                <strong>15 minutes</strong>
+              </div>
+            </div>
+          </div>
+          <div class="hero__gallery">
+            <div class="hero__photo hero__photo--one"></div>
+            <div class="hero__photo hero__photo--two"></div>
+            <div class="hero__photo hero__photo--three"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="flow" id="steps">
+        <div class="section__head">
+          <h2>How visits feel effortless</h2>
+          <p>Transparent steps from booking to full recovery.</p>
+        </div>
+        <div class="flow__grid">
+          <article>
+            <span>01</span>
+            <h3>History intake</h3>
+            <p>We review habits, nutrition, and symptom dynamics to see the full picture.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Diagnostics</h3>
+            <p>On-site lab, ultrasound, X-ray, and specialists all in one place.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Care plan</h3>
+            <p>A written treatment roadmap with timeline and transparent costs.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Follow-through</h3>
+            <p>24/7 contact, check-ins, and recovery guidance until healing is complete.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section__head">
+          <h2>Core services</h2>
+          <p>From prevention to complex surgery — all with thoughtful care.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service">
+            <div class="service__icon">TX</div>
+            <h3>Therapy & diagnostics</h3>
+            <p>Comprehensive exams, labs, ultrasound, and X-ray.</p>
+          </article>
+          <article class="service">
+            <div class="service__icon">CR</div>
+            <h3>Cardiology</h3>
+            <p>ECG, echocardiography, and age-aware care plans.</p>
+          </article>
+          <article class="service">
+            <div class="service__icon">SX</div>
+            <h3>Surgery</h3>
+            <p>Planned and emergency procedures with modern pain control.</p>
+          </article>
+          <article class="service">
+            <div class="service__icon">LB</div>
+            <h3>Laboratory</h3>
+            <p>Fast bloodwork, biochemistry, PCR, and microscopy.</p>
+          </article>
+          <article class="service">
+            <div class="service__icon">ICU</div>
+            <h3>24/7 ICU</h3>
+            <p>Round-the-clock observation and treatment by on-duty doctors.</p>
+          </article>
+          <article class="service">
+            <div class="service__icon">GR</div>
+            <h3>Grooming & care</h3>
+            <p>Gentle hygiene services and show preparation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="doctors" id="doctors">
+        <div class="section__head">
+          <h2>Doctors people trust</h2>
+          <p>A team that sees a personality in every patient.</p>
+        </div>
+        <div class="doctors__grid">
+          <article class="doctor doctor--chief">
+            <div class="doctor__photo doctor__photo--one"></div>
+            <h3>Sven Lewis Anstadt</h3>
+            <p>Chief veterinarian · Medical director</p>
+          </article>
+          <article class="doctor">
+            <div class="doctor__photo doctor__photo--two"></div>
+            <h3>Alex Gromov</h3>
+            <p>Surgeon · Trauma care</p>
+          </article>
+          <article class="doctor">
+            <div class="doctor__photo doctor__photo--three"></div>
+            <h3>Irene Safonova</h3>
+            <p>Cardiologist · Ultrasound</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="tour">
+        <div class="tour__panel">
+          <h2>Pet’s Hospitality is built for calm</h2>
+          <p>
+            Bright rooms, quiet wards, and separate zones for cats and dogs. We designed a path that keeps pets
+            relaxed at every step.
+          </p>
+          <button class="btn btn--primary" data-open="tour">Watch the tour</button>
+        </div>
+        <div class="tour__gallery">
+          <div class="tour__shot tour__shot--one"></div>
+          <div class="tour__shot tour__shot--two"></div>
+          <div class="tour__shot tour__shot--three"></div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="section__head">
+          <h2>Owner stories</h2>
+          <p>Honest feedback from people who trust us with family.</p>
+        </div>
+        <div class="testimonials__grid">
+          <article>
+            <p>“They explained every step, sent updates, and made our dog feel safe the entire time.”</p>
+            <span>Leah, beagle owner</span>
+          </article>
+          <article>
+            <p>“Night emergency was handled in minutes. We felt supported the whole night.”</p>
+            <span>Daniel, labrador owner</span>
+          </article>
+          <article>
+            <p>“Quiet, clean, and so gentle with our cat. We’ll only come here from now on.”</p>
+            <span>Amira, ragdoll owner</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta" id="contacts">
+        <div class="cta__card">
+          <div>
+            <h2>Book a visit today</h2>
+            <p>Leave your details and we’ll call you back to confirm a time.</p>
+          </div>
+          <button class="btn btn--dark" data-open="form">Send a request</button>
+        </div>
+        <div class="cta__info">
+          <div>
+            <h3>Contacts</h3>
+            <p>+1 (212) 555-0194</p>
+            <p>hello@petshospitality.life</p>
+            <p>8356 Old Troy Pike, Dayton, OH 45424</p>
+          </div>
+          <div>
+            <h3>Hours</h3>
+            <p>Clinic: daily 08:00–22:00</p>
+            <p>ICU: 24/7</p>
+          </div>
+          <div>
+            <h3>Legal</h3>
+            <p>Company: ALL PETS ANIMAL HOSPITAL, LLC</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>© 2026 Pet’s Hospitality · ALL PETS ANIMAL HOSPITAL, LLC</div>
+      <div class="footer__links">
+        <a href="#">Privacy policy</a>
+        <a href="#">Licenses</a>
+      </div>
+    </footer>
+
+    <div class="modal" id="form">
+      <div class="modal__card">
+        <button class="modal__close" data-close>Close</button>
+        <h3>Appointment request</h3>
+        <p>Leave your details and we’ll reach out within 15 minutes.</p>
+        <form class="modal__form">
+          <input type="text" placeholder="Full name" required />
+          <input type="tel" placeholder="Phone" required />
+          <select required>
+            <option value="">Select service</option>
+            <option>Therapy</option>
+            <option>Diagnostics</option>
+            <option>Surgery</option>
+            <option>ICU</option>
+          </select>
+          <button class="btn btn--primary" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal" id="tour">
+      <div class="modal__card modal__card--wide">
+        <button class="modal__close" data-close>Close</button>
+        <h3>Virtual tour</h3>
+        <p>A short video walkthrough is in production.</p>
+        <div class="modal__video">
+          <div>Video coming soon</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
