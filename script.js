@@ -59,7 +59,7 @@ forms.forEach((form) => {
     form.reset();
     const modal = form.closest('.modal');
     if (modal) closeModal(modal);
-    showToast('Thank you! We will contact you soon.');
+    showToast('Thank you! We will contact you shortly.');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 });

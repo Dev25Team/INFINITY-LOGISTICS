@@ -261,17 +261,17 @@ section {
 }
 
 .hero__photo--one {
-  background-image: url("https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80");
+  background-image: url("https://images.unsplash.com/photo-5utYi64hnJ0?auto=format&fit=crop&w=1200&q=80");
 }
 
 .hero__photo--two {
-  background-image: url("https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80");
+  background-image: url("https://images.unsplash.com/photo-T9Ogq6xODxY?auto=format&fit=crop&w=1200&q=80");
 }
 
 .hero__photo--three {
   grid-column: span 2;
   aspect-ratio: 16 / 8;
-  background-image: url("https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=1400&q=80");
+  background-image: url("https://images.unsplash.com/photo-M7G_m5XJ-go?auto=format&fit=crop&w=1400&q=80");
 }
 
 .section__head {
@@ -350,7 +350,7 @@ section {
 }
 
 .doctor--chief::after {
-  content: "Chief Veterinarian";
+  content: "Project Lead";
   position: absolute;
   top: 18px;
   right: 18px;
@@ -372,15 +372,15 @@ section {
 }
 
 .doctor__photo--one {
-  background-image: url("https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1000&q=80");
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/22/19/24/archive-1850170_1280.jpg");
 }
 
 .doctor__photo--two {
-  background-image: url("https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=80");
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/17/13/28/workbook-1205044_1280.jpg");
 }
 
 .doctor__photo--three {
-  background-image: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80");
+  background-image: url("https://images.unsplash.com/photo-28b8xlTT5t4?auto=format&fit=crop&w=1200&q=80");
 }
 
 .tour {
@@ -420,15 +420,15 @@ section {
 }
 
 .tour__shot--one {
-  background-image: url("https://images.unsplash.com/photo-1581888227599-779811939961?auto=format&fit=crop&w=1200&q=80");
+  background-image: url("https://images.unsplash.com/photo-CpIWRMy0jkg?auto=format&fit=crop&w=1200&q=80");
 }
 
 .tour__shot--two {
-  background-image: url("https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80");
+  background-image: url("https://images.unsplash.com/photo-vagu2hYqSXQ?auto=format&fit=crop&w=1200&q=80");
 }
 
 .tour__shot--three {
-  background-image: url("https://images.unsplash.com/photo-1580281658223-9b93f18ae9ae?auto=format&fit=crop&w=1200&q=80");
+  background-image: url("https://cdn.pixabay.com/photo/2020/04/03/04/50/warehouse-4997427_1280.jpg");
 }
 
 .testimonials__grid article {
