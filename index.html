@@ -3,270 +3,391 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ARCHIVE MODULE SOL LLC — Archive & Digital Records Solutions</title>
-    <meta name="description" content="ARCHIVE MODULE SOL LLC designs archive spaces, digitizes records, and implements secure document lifecycle management for regulated businesses." />
+    <title>Logic Core — Intelligent Logistics Control Tower</title>
+    <meta
+      name="description"
+      content="Logic Core unifies routing, warehouse visibility, carrier operations, and live delivery intelligence into one logistics control tower."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <meta name="google-site-verification" content="AZudMx15DYy9YZSuo9VFVe88tHNE3E-ya8mJ55y3KtU" />
+    <meta
+      name="google-site-verification"
+      content="AZudMx15DYy9YZSuo9VFVe88tHNE3E-ya8mJ55y3KtU"
+    />
   </head>
   <body>
-    <div class="bg">
-      <div class="bg__grain"></div>
-      <div class="bg__blob bg__blob--a"></div>
-      <div class="bg__blob bg__blob--b"></div>
-      <div class="bg__blob bg__blob--c"></div>
+    <div class="bg" aria-hidden="true">
+      <div class="bg__mesh"></div>
+      <div class="bg__line bg__line--one"></div>
+      <div class="bg__line bg__line--two"></div>
+      <div class="bg__glow bg__glow--one"></div>
+      <div class="bg__glow bg__glow--two"></div>
     </div>
 
     <header class="nav">
-      <div class="nav__logo">ARCHIVE MODULE SOL LLC</div>
+      <a class="nav__logo" href="#top">
+        <span>Logic</span>
+        <strong>Core</strong>
+      </a>
       <nav class="nav__links">
-        <a href="#services">Services</a>
-        <a href="#doctors">Team</a>
-        <a href="#steps">Process</a>
+        <a href="#platform">Platform</a>
+        <a href="#network">Network</a>
+        <a href="#results">Results</a>
         <a href="#contacts">Contacts</a>
       </nav>
-      <button class="nav__cta" data-open="form">Request a Consult</button>
+      <button class="nav__cta" data-open="form">Book a demo</button>
       <button class="nav__burger" aria-label="Open menu">Menu</button>
     </header>
 
-    <main>
-      <section class="hero">
+    <main id="top">
+      <section class="hero" data-reveal>
         <div class="hero__content">
-          <div class="hero__badge">B2B archive infrastructure · audit to delivery</div>
-          <h1>Turn records into a governed archive, not a growing risk.</h1>
+          <div class="hero__eyebrow">
+            <span class="hero__eyebrow-dot"></span>
+            Logistics intelligence for fast-moving operators
+          </div>
+          <h1>
+            Run routing, warehouse flow, and delivery visibility from one Logic
+            Core.
+          </h1>
           <p>
-            ARCHIVE MODULE SOL LLC helps companies organize paper and digital records with inventory control,
-            modular archive systems, digitization, and retention compliance.
+            Logic Core connects orders, vehicles, hubs, and carrier partners
+            into a single control layer so teams can plan faster, react earlier,
+            and ship with fewer blind spots.
           </p>
           <div class="hero__actions">
-            <button class="btn btn--primary" data-open="form">Request an audit</button>
-            <button class="btn btn--ghost" data-open="tour">View case study</button>
+            <button class="btn btn--primary" data-open="form">
+              Request strategy call
+            </button>
+            <button class="btn btn--secondary" data-open="tour">
+              See platform overview
+            </button>
           </div>
           <div class="hero__stats">
-            <div>
-              <strong>10+ years</strong>
-              <span>in archive delivery</span>
-            </div>
-            <div>
-              <strong>4 industries</strong>
-              <span>retail, logistics, finance, real estate</span>
-            </div>
-            <div>
-              <strong>99.9%</strong>
-              <span>digital archive availability</span>
-            </div>
+            <article>
+              <strong>18%</strong>
+              <span>average reduction in route cost</span>
+            </article>
+            <article>
+              <strong>96%</strong>
+              <span>on-time dispatch visibility</span>
+            </article>
+            <article>
+              <strong>24/7</strong>
+              <span>control tower monitoring</span>
+            </article>
           </div>
         </div>
+
         <div class="hero__visual">
-          <div class="hero__card">
-            <div class="hero__card-header">30-day project snapshot</div>
-            <div class="hero__card-body">
-              <div class="hero__card-line">
-                <span>Records cataloged</span>
-                <strong>46,200 files</strong>
+          <div class="hero__panel panel panel--primary" data-reveal>
+            <div class="panel__topline">
+              <span>Live command view</span>
+              <strong>Q2 Network</strong>
+            </div>
+            <div class="panel__metric">
+              <span>Active shipments</span>
+              <strong>1,284</strong>
+            </div>
+            <div class="panel__bars">
+              <div>
+                <label>Warehouse throughput</label>
+                <div class="panel__bar"><span style="width: 82%"></span></div>
               </div>
-              <div class="hero__card-line">
-                <span>Digitized volume</span>
-                <strong>380 GB archived</strong>
+              <div>
+                <label>Carrier utilization</label>
+                <div class="panel__bar"><span style="width: 68%"></span></div>
               </div>
-              <div class="hero__card-line">
-                <span>Cost reduction</span>
-                <strong>up to 34% storage</strong>
+              <div>
+                <label>Risk alerts resolved</label>
+                <div class="panel__bar"><span style="width: 91%"></span></div>
               </div>
             </div>
+            <div class="panel__foot">
+              <span>5 regional hubs synchronized</span>
+              <span>ETA engine updated 2 min ago</span>
+            </div>
           </div>
-          <div class="hero__gallery">
-            <div class="hero__photo hero__photo--one"></div>
-            <div class="hero__photo hero__photo--two"></div>
-            <div class="hero__photo hero__photo--three"></div>
+
+          <div class="hero__stack">
+            <article class="stack-card" data-reveal>
+              <span class="stack-card__label">Route Brain</span>
+              <strong>Dynamic capacity planning</strong>
+              <p>
+                Prioritizes load mix, time windows, and carrier constraints in
+                one run.
+              </p>
+            </article>
+            <article class="stack-card" data-reveal>
+              <span class="stack-card__label">Dock Flow</span>
+              <strong>Warehouse pulse</strong>
+              <p>
+                Maps inbound pressure, outbound slots, and labor utilization in
+                real time.
+              </p>
+            </article>
+            <article class="stack-card stack-card--accent" data-reveal>
+              <span class="stack-card__label">Customer Layer</span>
+              <strong>Proactive delivery updates</strong>
+              <p>
+                Triggers exception messaging before delays become support
+                tickets.
+              </p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="flow" id="steps">
-        <div class="section__head">
-          <h2>How we deploy archives without business disruption</h2>
-          <p>A clear process with controlled timelines and risk management.</p>
-        </div>
-        <div class="flow__grid">
-          <article>
-            <span>01</span>
-            <h3>Archive audit</h3>
-            <p>We map document types, retention rules, volume, and compliance risks.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Module design</h3>
-            <p>We design shelving, access zones, labeling, and issue workflows.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Digitization and indexing</h3>
-            <p>We scan, apply metadata, and deliver fast search with OCR.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>Operational governance</h3>
-            <p>We implement SLAs, retention automation, and secure disposition.</p>
-          </article>
+      <section class="partners" data-reveal>
+        <span
+          >Built for 3PL, retail distribution, manufacturing, and regional
+          delivery networks</span
+        >
+        <div class="partners__track">
+          <span>Control Tower</span>
+          <span>Warehouse Sync</span>
+          <span>Carrier Hub</span>
+          <span>ETA Engine</span>
+          <span>Order Orchestration</span>
         </div>
       </section>
 
-      <section class="services" id="services">
-        <div class="section__head">
-          <h2>Core services</h2>
-          <p>End-to-end: from physical archives to a digital records hub.</p>
-        </div>
-        <div class="services__grid">
-          <article class="service">
-            <div class="service__icon">TX</div>
-            <h3>Archive consulting</h3>
-            <p>Retention policies, access matrix, and audit-ready documentation.</p>
-          </article>
-          <article class="service">
-            <div class="service__icon">CR</div>
-            <h3>Modular storage</h3>
-            <p>Design and installation of mobile and static archive systems.</p>
-          </article>
-          <article class="service">
-            <div class="service__icon">SX</div>
-            <h3>Digitization</h3>
-            <p>High-volume scanning, OCR, QA, and ECM/ERP export.</p>
-          </article>
-          <article class="service">
-            <div class="service__icon">LB</div>
-            <h3>Cataloging</h3>
-            <p>Unified file structure, barcode tracking, and chain of custody.</p>
-          </article>
-          <article class="service">
-            <div class="service__icon">SEC</div>
-            <h3>Secure storage</h3>
-            <p>Temperature zoning, access controls, and activity logging.</p>
-          </article>
-          <article class="service">
-            <div class="service__icon">GR</div>
-            <h3>Lifecycle management</h3>
-            <p>Automated reminders and compliant records disposition.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="doctors" id="doctors">
-        <div class="section__head">
-          <h2>Project leadership</h2>
-          <p>A team that aligns archival practice with modern systems.</p>
-        </div>
-        <div class="doctors__grid">
-          <article class="doctor doctor--chief">
-            <div class="doctor__photo doctor__photo--one"></div>
-            <h3>Michael R. Collins</h3>
-            <p>Managing Partner · Archive transformation</p>
-          </article>
-          <article class="doctor">
-            <div class="doctor__photo doctor__photo--two"></div>
-            <h3>Elena Morozova</h3>
-            <p>Head of Digitization · OCR and indexing</p>
-          </article>
-          <article class="doctor">
-            <div class="doctor__photo doctor__photo--three"></div>
-            <h3>Jason Patel</h3>
-            <p>Compliance Lead · Records retention</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="tour">
-        <div class="tour__panel">
-          <h2>What a real deployment looks like</h2>
+      <section class="platform" id="platform">
+        <div class="section__head" data-reveal>
+          <span class="section__eyebrow">Platform modules</span>
+          <h2>One operating system for logistics decisions.</h2>
           <p>
-            For a regional logistics company, we migrated 120,000 files into a modular archive, launched a digital
-            registry, and reduced document retrieval from 2 hours to 4 minutes.
+            Instead of stitching spreadsheets, TMS exports, and warehouse calls,
+            Logic Core gives teams one shared workspace for execution.
           </p>
-          <button class="btn btn--primary" data-open="tour">Open case study</button>
         </div>
-        <div class="tour__gallery">
-          <div class="tour__shot tour__shot--one"></div>
-          <div class="tour__shot tour__shot--two"></div>
-          <div class="tour__shot tour__shot--three"></div>
+        <div class="platform__grid">
+          <article class="capability" data-reveal>
+            <div class="capability__index">01</div>
+            <h3>Routing orchestration</h3>
+            <p>
+              Build, rebalance, and release routes based on actual capacity,
+              traffic, and SLA windows.
+            </p>
+          </article>
+          <article class="capability" data-reveal>
+            <div class="capability__index">02</div>
+            <h3>Warehouse coordination</h3>
+            <p>
+              Align dock loading, pick waves, and dispatch windows to eliminate
+              avoidable queueing.
+            </p>
+          </article>
+          <article class="capability" data-reveal>
+            <div class="capability__index">03</div>
+            <h3>Carrier performance layer</h3>
+            <p>
+              Track acceptance, dwell, claims, and service quality across
+              external transport partners.
+            </p>
+          </article>
+          <article class="capability" data-reveal>
+            <div class="capability__index">04</div>
+            <h3>Exception automation</h3>
+            <p>
+              Escalate late loads, route drift, and inventory mismatch with
+              clear owners and response rules.
+            </p>
+          </article>
         </div>
       </section>
 
-      <section class="testimonials">
-        <div class="section__head">
-          <h2>What clients say</h2>
-          <p>Feedback from teams after archive modernization.</p>
+      <section class="network" id="network">
+        <div class="network__map panel" data-reveal>
+          <div class="network__grid"></div>
+          <div class="network__node network__node--one">
+            <span>West Hub</span>
+            <strong>124 departures</strong>
+          </div>
+          <div class="network__node network__node--two">
+            <span>Central Hub</span>
+            <strong>318 departures</strong>
+          </div>
+          <div class="network__node network__node--three">
+            <span>East Hub</span>
+            <strong>207 departures</strong>
+          </div>
         </div>
-        <div class="testimonials__grid">
-          <article>
-            <p>“Within three months we resolved paper chaos and passed audit with zero findings.”</p>
-            <span>Financial group, CFO</span>
+
+        <div class="network__content">
+          <div class="section__head" data-reveal>
+            <span class="section__eyebrow">Operational network</span>
+            <h2>Visibility across hubs, fleets, and customer promises.</h2>
+            <p>
+              Logic Core is designed for organizations that need one truth
+              across multiple fulfillment points and different transport models.
+            </p>
+          </div>
+
+          <div class="network__list">
+            <article class="industry" data-reveal>
+              <h3>Retail distribution</h3>
+              <p>
+                Keep replenishment routes stable while flagging store-level risk
+                earlier in the day.
+              </p>
+            </article>
+            <article class="industry" data-reveal>
+              <h3>Manufacturing logistics</h3>
+              <p>
+                Protect plant schedules with inbound milestone control and
+                supplier exception tracking.
+              </p>
+            </article>
+            <article class="industry" data-reveal>
+              <h3>3PL operations</h3>
+              <p>
+                Run multi-client flows with cleaner accountability, better
+                margins, and transparent SLA reporting.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story" data-reveal>
+        <div class="story__intro">
+          <span class="section__eyebrow">Flagship workflow</span>
+          <h2>
+            From order intake to proof-of-delivery, the same system stays in
+            control.
+          </h2>
+          <p>
+            Teams no longer need separate handoffs between planning, warehouse
+            ops, dispatch, and customer support. Logic Core keeps every role
+            aligned on the same live state.
+          </p>
+        </div>
+        <div class="story__grid">
+          <article class="story-card" data-reveal>
+            <span>Plan</span>
+            <h3>Demand and route design</h3>
+            <p>
+              Orders, lane constraints, and service levels feed one scheduling
+              engine.
+            </p>
           </article>
-          <article>
-            <p>“Contract search became instant, and sales never paused during rollout.”</p>
-            <span>Real estate developer, COO</span>
+          <article class="story-card" data-reveal>
+            <span>Move</span>
+            <h3>Execution with alerting</h3>
+            <p>
+              Dispatchers see route drift, dock pressure, and carrier response
+              without chasing updates.
+            </p>
           </article>
-          <article>
-            <p>“We cut archive footprint in half and now have clear retention control.”</p>
-            <span>Logistics operator, Head of Legal Ops</span>
+          <article class="story-card" data-reveal>
+            <span>Close</span>
+            <h3>Performance and margin view</h3>
+            <p>
+              Every delivery closes with service, cost, and delay signals ready
+              for the next planning cycle.
+            </p>
           </article>
         </div>
       </section>
 
-      <section class="cta" id="contacts">
+      <section class="results" id="results">
+        <div class="section__head" data-reveal>
+          <span class="section__eyebrow">Measured impact</span>
+          <h2>What operators improve after switching to Logic Core.</h2>
+          <p>
+            Fewer manual escalations, faster response to disruption, and cleaner
+            communication across the network.
+          </p>
+        </div>
+        <div class="results__grid">
+          <article class="result-card result-card--highlight" data-reveal>
+            <strong>2.4x</strong>
+            <span>faster dispatch decisions during daily peak windows</span>
+          </article>
+          <article class="result-card" data-reveal>
+            <strong>31%</strong>
+            <span>less time spent reconciling data between ops systems</span>
+          </article>
+          <article class="result-card" data-reveal>
+            <strong>14%</strong>
+            <span>improvement in vehicle and carrier capacity utilization</span>
+          </article>
+          <article class="result-card" data-reveal>
+            <strong>42%</strong>
+            <span>drop in customer-facing delay escalations</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta" id="contacts" data-reveal>
         <div class="cta__card">
           <div>
-            <h2>Start your archive project now</h2>
-            <p>Leave your contact details and we will prepare a rollout plan.</p>
+            <span class="section__eyebrow">Contact Logic Core</span>
+            <h2>Launch a cleaner logistics operating model.</h2>
+            <p>
+              We map your current flow, identify decision bottlenecks, and show
+              where a control tower adds ROI.
+            </p>
           </div>
-          <button class="btn btn--dark" data-open="form">Get a consultation</button>
+          <button class="btn btn--primary btn--light" data-open="form">
+            Schedule demo
+          </button>
         </div>
         <div class="cta__info">
-          <div>
-            <h3>Contacts</h3>
-            <p>+1 (312) 555-0148</p>
-            <p>hello@infinitlogs.site</p>
-            <p>infinitlogs.site</p>
-            <p>220 N Green St, Chicago, IL 60607</p>
-          </div>
-          <div>
-            <h3>Hours</h3>
-            <p>Mon-Fri: 08:30-19:00</p>
-            <p>Sat: 10:00-15:00</p>
-          </div>
-          <div>
-            <h3>Legal</h3>
-            <p>Company: ARCHIVE MODULE SOL LLC</p>
-          </div>
+          <article data-reveal>
+            <h3>Head office</h3>
+            <p>Logic Core</p>
+            <p>175 W Jackson Blvd, Chicago, IL 60604</p>
+          </article>
+          <article data-reveal>
+            <h3>Direct</h3>
+            <p>+1 (312) 555-0182</p>
+            <p>hello@logiccore.io</p>
+            <p>www.logiccore.io</p>
+          </article>
+          <article data-reveal>
+            <h3>Availability</h3>
+            <p>Mon-Fri: 08:00-19:00</p>
+            <p>Operations desk: 24/7</p>
+          </article>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div>© 2026 ARCHIVE MODULE SOL LLC. All rights reserved.</div>
+      <div>© 2026 Logic Core. All rights reserved.</div>
       <div class="footer__links">
         <a href="#">Privacy policy</a>
-        <a href="#">Terms of service</a>
+        <a href="#">Terms of use</a>
       </div>
     </footer>
 
     <div class="modal" id="form">
       <div class="modal__card">
         <button class="modal__close" data-close>Close</button>
-        <h3>Archive audit request</h3>
-        <p>Leave your details and we will contact you within one business day.</p>
+        <h3>Book a Logic Core demo</h3>
+        <p>
+          Share your operation details and the team will get back within one
+          business day.
+        </p>
         <form class="modal__form">
           <input type="text" placeholder="Name and company" required />
+          <input type="email" placeholder="Work email" required />
           <input type="tel" placeholder="Phone" required />
           <select required>
-            <option value="">Select a service</option>
-            <option>Archive audit</option>
-            <option>Document digitization</option>
-            <option>Modular archive</option>
-            <option>Compliance support</option>
+            <option value="">Choose your focus</option>
+            <option>Routing and dispatch</option>
+            <option>Warehouse coordination</option>
+            <option>Carrier visibility</option>
+            <option>Full control tower rollout</option>
           </select>
-          <button class="btn btn--primary" type="submit">Submit</button>
+          <button class="btn btn--primary" type="submit">Send request</button>
         </form>
       </div>
     </div>
@@ -274,10 +395,13 @@
     <div class="modal" id="tour">
       <div class="modal__card modal__card--wide">
         <button class="modal__close" data-close>Close</button>
-        <h3>Implementation case study</h3>
-        <p>An interactive overview is in production.</p>
+        <h3>Platform overview</h3>
+        <p>
+          Interactive product tour and workflow walkthrough are being prepared
+          for this landing page.
+        </p>
         <div class="modal__video">
-          <div>Materials coming soon</div>
+          <div>Logic Core overview coming soon</div>
         </div>
       </div>
     </div>
